@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F1EA;
+    color: #3e3a36;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-expand-sm {
+    background-color: #800000;
+}
+
+.navbar-expand-sm .nav-link {
+    color: white !important;
+}
+
+.navbar-expand-sm .nav-link:hover {
+    background-color: #4B0000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2 {
+    color: #800000;
+}
+
+.form-group label {
+    color: #3e3a36;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #800000;
+    box-shadow: 0 0 5px rgba(128, 0, 0, 0.2);
+}
+
+
+button.btn-primary {
+    background-color: #800000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.btn-primary:hover {
+    background-color: blue; 
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #800000;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #800000;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #800000;
+    color: white;
+    border-radius: 0;
+}
+
+
+.form-select {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-select:focus {
+    border-color: #800000; 
+    box-shadow: 0 0 5px rgba(128, 0, 0, 0.2);
+}
+
+/* Checkbox and Radio Button */
+input[type="checkbox"], input[type="radio"] {
+    accent-color: #800000;
+
+legend {
+    color: #800000;
+}
